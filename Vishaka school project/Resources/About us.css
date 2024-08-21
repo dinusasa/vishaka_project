@@ -1,0 +1,35 @@
+*{
+    font-family: "lato", sans-serif;
+    cursor: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><circle cx="12" cy="12" r="8" style="fill:white;stroke:black;stroke-width:2;"/></svg>') 12 12, auto;
+}
+body{
+    background: url(Images/cool-background\ \(2\).png)no-repeat center center fixed;
+    background-size: cover;
+    color: aliceblue;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    transition: all 1s ease-in-out;
+    word-wrap: break-word;
+}
+.content{
+    text-align: center;
+    border-radius: 10px;
+    background-color: #0118448e;
+    backdrop-filter: blur(20px);
+    color: rgb(188, 188, 188);
+    padding: 5px;
+    margin: 10px;
+    transition: all .5s ease-in;
+}
+.content:hover{
+    transform: scale(90%);
+    transition: all .5s ease-in;
+}
+.title{
+    font-weight: normal;
+    font-size: 15pt;
+}
+.subtitle{
+    font-size: 30px;
+    text-decoration: solid underline 1px;
+}

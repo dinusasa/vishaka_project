@@ -1,0 +1,35 @@
+*{
+    font-family: "lato", sans-serif;
+    cursor: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><circle cx="12" cy="12" r="8" style="fill:white;stroke:black;stroke-width:2;"/></svg>') 12 12, auto;
+}
+body{
+    background: url(Images/cool-background\ \(5\).png)no-repeat center center fixed;
+    background-size: cover;
+    text-align: center;
+    margin: 10px;
+    backdrop-filter: blur(5px);
+    font-size: 20px;
+}
+.content{
+    margin: 10px;
+    padding: 10px;
+}
+.title{
+    font-size: 30px;
+}
+.form{
+    margin: 10px;
+}
+input{
+    display: flex;
+    justify-content: center;
+    padding-left: 10%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    border: none;
+    border-radius: 10px;
+    background-color: #00000053;
+    color: aliceblue;
+}
